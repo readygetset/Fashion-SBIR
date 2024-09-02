@@ -25,7 +25,9 @@ CLIP의 vision, text encoder를 사용하여 이미지, 스케치, 텍스트의 
 
 ## 환경 설정
 
-(Requirements, Anaconda, Docker 등 프로젝트를 사용하는데에 필요한 요구 사항을 나열해주세요)
+Prerequisites:
+- Pytorch
+- ftfy
 
 ## 사용 방법
 
