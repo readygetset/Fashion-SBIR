@@ -1,4 +1,4 @@
-![image-4](https://github.com/user-attachments/assets/84d192d9-d829-4820-85c7-529a673fed04)# 패션의 완성은 그림
+# 패션의 완성은 그림
 
 📢 20##년 1/여름/2/겨울학기 [AIKU](https://github.com/AIKU-Official) 활동으로 진행한 프로젝트입니다
 🎉 20##년 1/여름/2/겨울학기 AIKU Conference 열심히상 수상!
@@ -29,23 +29,33 @@ CLIP의 vision, text encoder를 사용하여 이미지, 스케치, 텍스트의 
 
 ## 예시 결과
 1. edge map과 text caption을 주었을 경우
+
+
 edge map과 text caption을 함께 주었을 때 원하는 이미지가 가장 먼저 검색되는 것을 확인할 수 있으며, 그 외 사진들도 상당히 연관성이 높은 이미지들임을 알 수 있다. 
 ![image](https://github.com/user-attachments/assets/2b06e9aa-8e01-4a36-9a80-18f7dbbd57e2)
 ![image-2](https://github.com/user-attachments/assets/0b12b611-b2d0-4fa6-86d1-4bd49ed4790a)
 
 2. 동일한 텍스트에 색깔을 달리 했을 경우
+
+
 ‘a long trouser’와 바지 스케치를 주었을 경우 첫 번째 row의 왼쪽과 같은 결과를 얻는다. 이때 ‘a long {color} trouser’로 텍스트 캡션에 변화를 주면 아래와 같이 색깔에 잘 맞는 이미지가 검색되는 것을 볼 수 있다. 
 ![image-3](https://github.com/user-attachments/assets/6072a7d9-00fc-41b2-bb8c-b05a6d69ff65)
 
 3. 브랜드 이름을 텍스트에 주는 경우
+
+
 이번에는 데이터셋 특성상 text description에 명품 브랜드명이 있었기 때문에 실험 중 하나로 브랜드명을 넣은 캡션을 제공해보았다. 결과는 브랜드 명에 맞는 이미지가 잘 검색되고 있음을 알 수 있다. 특히나 '루이비통'의 경우 특정 패턴이 돋보이면서 검색 결과가 더 잘 나오는 걸 볼 수 있다.
 ![image-4](https://github.com/user-attachments/assets/054911cb-6a76-49ef-b38f-0a9e6b35fdd4)
 
 4. 캡션 유무에 따른 이미지 검색의 차이
+
+
 이번에는 캡션의 영향을 알아보기 위해 캡션의 유무에 따른 실험을 진행하였다. 동일한 클러치백이 있는 스케치를 주고 하나는 캡션을 공백으로 주고, 하나는 간단히 'a cluth' 로 주었을 때 결과는 완전히 달랐다. 캡션을 아예 주지 않으면 클러치나 비슷한 물체를 찾지 못했지만, 클러치라고 명시해주면 클러치 가방, 혹은 비슷한 가방 류를 검색하는 것을 볼 수 있다. 
 ![image-5](https://github.com/user-attachments/assets/f183cd00-09c1-417c-b340-887485aaccda)
 
 5. 데모
+
+
 이번에는 edge map이 아닌 실제 인간이 그린 스케치로 얼마나 좋은 성능을 내는지 확인하기 위해 데모를 제작했다. 아래는 하나의 예시로, '보테가 베네타' 가방을 그렸을 때 나오는 이미지 결과이다. 
 ![image-6](https://github.com/user-attachments/assets/eb4f3e4e-0c66-46f2-83eb-e8858bc23f2a)
 
