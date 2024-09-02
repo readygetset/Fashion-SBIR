@@ -29,7 +29,7 @@ CLIP의 vision, text encoder를 사용하여 이미지, 스케치, 텍스트의 
 
 ## 사용 방법
 
-(프로젝트 실행 방법 (명령어 등)을 적어주세요.)
+Retrieval_Demo.ipynb 실행
 
 ## 예시 결과
 **1. edge map과 text caption을 주었을 경우**
